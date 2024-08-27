@@ -3,5 +3,13 @@
 @tailwind utilities;
 
 .contain {
-  @apply max-w-[1200px] mx-auto;
+  @apply max-w-[1200px] mx-auto px-5;
+}
+
+.head-1 {
+  @apply font-bold text-3xl lg:text-6xl;
+}
+
+.head-2 {
+  @apply text-xl lg:text-2xl;
 }
