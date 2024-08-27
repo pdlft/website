@@ -1,4 +1,5 @@
 ---
+import Umami from "../components/Umami.astro";
 import { siteConfig } from "../config";
 import "../styles.css";
 import { SEO } from "astro-seo"
@@ -26,6 +27,7 @@ const baseSEO = {
 		<SEO {...baseSEO} />
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/fav.ico" />
+		<Umami />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{realTile}</title>
