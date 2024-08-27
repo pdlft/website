@@ -1,16 +1,34 @@
 ---
 import { siteConfig } from "../config";
 import "../styles.css";
+import { SEO } from "astro-seo"
+
+const { title } = Astro.props
+
+const realTile = title ? `${title} - ${siteConfig.title}` : siteConfig.title
+
+const baseSEO = {
+	title: realTile,
+	description: siteConfig.description,
+	openGraph: {
+		basic: {
+			title: realTile,
+			type: "website",
+			image: "/og-image.png",
+		}
+	}
+}
 
 ---
 
 <html lang="en" class="bg-black text-foreground">
 	<head>
+		<SEO {...baseSEO} />
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/fav.ico" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{siteConfig.title}</title>
+		<title>{realTile}</title>
 	</head>
 	<body>
     <nav class="p-3 max-w-[1200px] mx-auto my-8">
