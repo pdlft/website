@@ -11,7 +11,30 @@ layout: "../../layouts/Post.astro"
 
 ## 捐赠披露
 
-我们会每两个月进行一次捐赠，并在 PaddingLeft 的博客和社交平台上公开披露捐赠细节。亦可在 PaddingLeft 的 [OpenCollective 页面](https://opencollective.com/pdlft)查看我们公开的捐赠记录。非 OpenCollective 的捐赠，我们会在此页面不断更新捐赠细节。
+我们会每两个月进行一次捐赠，并在 PaddingLeft 的博客和社交平台上公开披露捐赠细节。亦可在 PaddingLeft 的 [OpenCollective 页面](https://opencollective.com/pdlft)和 [Github Sponsor 页面](https://github.com/orgs/pdlft/sponsoring) 查看我们公开的捐赠记录。非 OpenCollective 的捐赠，我们会在此页面不断更新捐赠细节。
+
+## 记录
+
+### 2024.09 - 2024.10
+
+这个月我们一共捐出了 137 人民币，详细捐赠金额如下（美元结算）：
+
+| 项目 | 金额 |
+|------|------|
+| Astro | $1 |
+| Vue | $1 |
+| Vite | $2 |
+| neovim | $1 |
+| webpack | $1 |
+| Babel | $1 |
+| Rust | $3 |
+| Git | $3.5 |
+| GNU | $1 |
+
+![GNU 捐赠截图](</images/CleanShot 2024-10-31 at 12.16.23@2x.png>)
+
+另外还有一部分因未达到 $1 的捐赠下限，我们会在下个月合并捐赠。
+
 
 ## 捐赠列表
 
