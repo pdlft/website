@@ -4,9 +4,9 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				foreground: "#FAF5E1",
-				primary: "#FF6E1F",
-				light: "#F5E5C4",
+				// foreground: "#FAF5E1",
+				// primary: "#FF6E1F",
+				// light: "#F5E5C4",
 			}
 		},
 	},
